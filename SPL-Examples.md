@@ -3,6 +3,14 @@
 
 This document provides a collection of useful SPL (Search Processing Language) scripts commonly used with Splunk for log analysis, troubleshooting, and performance monitoring.
 
+## 📌 Notes
+
+- Replace `index=web_logs` with your actual index if needed.
+- Use `earliest` and `latest` to control time range.
+- Pipe (`|`) is used to chain commands, similar to shell scripting.
+- These queries can be run from Splunk Web, REST API, or SDKs.
+- SPL is powerful for building dashboards, alerts, and operational intelligence views.
+
 ---
 
 ## 1. 🔎 Basic Error Search
@@ -56,14 +64,3 @@ index=web_logs
 
 ---
 
-## 📌 Notes
-
-- Replace `index=web_logs` with your actual index if needed.
-- Use `earliest` and `latest` to control time range.
-- Pipe (`|`) is used to chain commands, similar to shell scripting.
-- These queries can be run from Splunk Web, REST API, or SDKs.
-- SPL is powerful for building dashboards, alerts, and operational intelligence views.
-
----
-
-Let me know if you need more SPL scripts for security, auth events, anomalies, or specific data sources.
